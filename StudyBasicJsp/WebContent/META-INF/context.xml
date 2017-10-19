@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+      	<Resource 
+	    	name="jdbc/basicjsp"
+	    	auth="Container"
+	    	type="javax.sql.DataSource"
+	    	driverClassName="com.mysql.jdbc.Driver"
+	    	username="jspid"
+	    	password="jsppass"
+	    	url="jdbc:mysql://localhost:3306/basicjsp"
+	    	maxWait="5000"
+    	/>
+</Context>

@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+
+body {
+	font-size: 12px; 
+	text-align: center;
+}
+a{
+text-decoration:none;
+color : #333;
+}
+
+table {
+	font-size: 12px;
+	text-align: center;
+	border: 1pt solid black;
+	/* width:800px; */
+	margin:0 auto;
+}
+table.register_table{
+	margin-top: 150px;
+}
+table.list_table{
+	width:600px;
+}
+table.order_table{
+	width:1000px;
+}
+form > table.delete_table{
+	width:350px;
+}
+table.insert_table{
+	width:320px;
+}
+select {
+	font-size: 12px; 
+}
+
+form {
+	font-size: 12px; 
+}
+
+p{
+	font-weight: 700;
+}
+
