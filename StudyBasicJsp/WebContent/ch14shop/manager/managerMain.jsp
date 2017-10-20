@@ -7,9 +7,9 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
-<body>
+<body> 
 <%
-	String managerId="";
+	String managerId=""; //171020
 	try{
 		managerId = (String)session.getAttribute("managerId");
 		
